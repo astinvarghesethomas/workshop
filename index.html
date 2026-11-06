@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SimpleWeb - Clean, modern, aesthetic and fully responsive website template." />
+  <title>SimpleWeb | Clean &amp; Modern Web Experience</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </span>
+        Simple<span>Web</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme toggle button -->
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary nav-cta">Get Started</a>
+
+        <!-- Mobile menu toggle -->
+        <button id="mobile-menu-btn" class="menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge">
+            <span class="badge-dot"></span>
+            <span>Clean &amp; Modern Architecture</span>
+          </div>
+          <h1 class="hero-title">
+            Build beautiful web experiences <span class="gradient-text">effortlessly</span>.
+          </h1>
+          <p class="hero-subtitle">
+            A lightweight, elegant, and fully responsive HTML5 website template built with clean typography, smooth micro-interactions, and zero dependencies.
+          </p>
+          <div class="hero-buttons">
+            <a href="#pricing" class="btn btn-primary">
+              <span>View Pricing</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#about" class="btn btn-outline">Explore Features</a>
+          </div>
+
+          <div class="hero-trust">
+            <span>Built with modern web standards:</span>
+            <div class="trust-tags">
+              <span class="tag">HTML5 Semantic</span>
+              <span class="tag">CSS Variables</span>
+              <span class="tag">Vanilla JavaScript</span>
+              <span class="tag">Responsive Layout</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card-preview">
+            <div class="card-header-bar">
+              <div class="dot-cluster">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="terminal-title">system-status.json</span>
+              <span class="live-pill"><span class="pulse-dot"></span> Active</span>
+            </div>
+            <div class="card-body-content">
+              <div class="code-editor">
+                <div class="code-row"><span class="ln">01</span><span class="code-kw">const</span> <span class="code-var">website</span> = {</div>
+                <div class="code-row indent"><span class="ln">02</span><span class="code-key">performance:</span> <span class="code-str">"100/100"</span>,</div>
+                <div class="code-row indent"><span class="ln">03</span><span class="code-key">responsive:</span> <span class="code-bool">true</span>,</div>
+                <div class="code-row indent"><span class="ln">04</span><span class="code-key">darkTheme:</span> <span class="code-bool">true</span>,</div>
+                <div class="code-row indent"><span class="ln">05</span><span class="code-key">loadSpeed:</span> <span class="code-str">"&lt; 0.2s"</span>,</div>
+                <div class="code-row indent"><span class="ln">06</span><span class="code-key">dependencies:</span> <span class="code-num">0</span></div>
+                <div class="code-row"><span class="ln">07</span>};</div>
+              </div>
+              
+              <div class="card-stats-mini">
+                <div class="mini-stat-card">
+                  <span class="mini-label">Core Vitals</span>
+                  <span class="mini-value">Grade A+</span>
+                </div>
+                <div class="mini-stat-card">
+                  <span class="mini-label">Clean Code</span>
+                  <span class="mini-value">100% Native</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Bar Section -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">99.9%</div>
+            <div class="stat-label">Uptime Reliability</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">&lt; 20KB</div>
+            <div class="stat-label">Ultra-Light Footprint</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">100/100</div>
+            <div class="stat-label">Lighthouse Performance</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">0</div>
+            <div class="stat-label">External Dependencies</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Core Features</span>
+          <h2>Crafted with Attention to Detail</h2>
+          <p>Carefully structured with semantic HTML5, pure CSS variables, and vanilla JavaScript for a seamless user experience.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3>Blazing Fast</h3>
+            <p>Pure HTML, CSS, and vanilla JavaScript ensures instant loading times with zero lag and zero compile steps.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3>Responsive Layout</h3>
+            <p>Looks great on desktops, tablets, and phones of all screen dimensions using modern CSS Grid and Flexbox.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a10 10 0 0 0 0 20z" fill="currentColor"></path>
+              </svg>
+            </div>
+            <h3>Light &amp; Dark Modes</h3>
+            <p>Integrated theme switcher that respects your system preferences and automatically remembers your choice.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3>Accessible &amp; Semantic</h3>
+            <p>Constructed with WCAG accessibility guidelines, aria landmarks, and accessible form labels.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3>Modular Architecture</h3>
+            <p>Clean separation of concerns with well-organized code that is simple to understand, modify, and extend.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h3>SEO Optimized</h3>
+            <p>Pre-configured meta tags, semantic headers, and clean HTML structure designed for high search rankings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Solutions</span>
+          <h2>What We Offer</h2>
+          <p>Discover the core capabilities and services available for modern web projects.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <h3>Web Design</h3>
+            <p>Crafting intuitive and engaging user experiences tailored to modern web standards.</p>
+            <ul class="service-checklist">
+              <li><span class="check-icon">&#10003;</span> Wireframing &amp; interactive prototyping</li>
+              <li><span class="check-icon">&#10003;</span> Design token color schemes</li>
+              <li><span class="check-icon">&#10003;</span> Usability &amp; accessibility reviews</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3>Front-End Development</h3>
+            <p>Writing clean, maintainable, and modular code that scales seamlessly.</p>
+            <ul class="service-checklist">
+              <li><span class="check-icon">&#10003;</span> Semantic HTML5 &amp; modern CSS3</li>
+              <li><span class="check-icon">&#10003;</span> Cross-browser compatibility</li>
+              <li><span class="check-icon">&#10003;</span> Interactive forms &amp; validations</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 14 14"></polyline>
+              </svg>
+            </div>
+            <h3>Performance Optimization</h3>
+            <p>Enhancing loading speeds, accessibility, and search engine optimization.</p>
+            <ul class="service-checklist">
+              <li><span class="check-icon">&#10003;</span> Asset compression &amp; clean CSS</li>
+              <li><span class="check-icon">&#10003;</span> Sub-second loading speed</li>
+              <li><span class="check-icon">&#10003;</span> Zero cumulative layout shift</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process / Methodology Section -->
+    <section id="process" class="section process-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Methodology</span>
+          <h2>How We Build</h2>
+          <p>A step-by-step approach ensuring fast turnaround and predictable results.</p>
+        </div>
+        <div class="process-grid">
+          <div class="process-card">
+            <div class="process-step">Step 01</div>
+            <h3>Discovery &amp; Plan</h3>
+            <p>We clarify goals, define the core audience, outline key page sections, and set milestones.</p>
+          </div>
+          <div class="process-card">
+            <div class="process-step">Step 02</div>
+            <h3>Design &amp; Prototype</h3>
+            <p>We create clean visual hierarchies, typography styles, color themes, and responsive layouts.</p>
+          </div>
+          <div class="process-card">
+            <div class="process-step">Step 03</div>
+            <h3>Code &amp; Test</h3>
+            <p>We develop with clean HTML, CSS, and JS, thoroughly testing contrast, mobile responsiveness, and speed.</p>
+          </div>
+          <div class="process-card">
+            <div class="process-step">Step 04</div>
+            <h3>Deploy &amp; Launch</h3>
+            <p>We push live to modern static hosting, configure custom domains, and verify ongoing stability.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Portfolio</span>
+          <h2>Featured Work</h2>
+          <p>A showcase of sample creative projects built with precision.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image-placeholder gradient-1">
+              <div class="project-mockup-graphic">
+                <div class="mock-bar"></div>
+                <div class="mock-grid"><span></span><span></span><span></span></div>
+              </div>
+              <span class="project-badge">Design System</span>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Design System</span>
+              <h3>Minimalist UI Kit</h3>
+              <p>A coherent design system featuring accessible typography and balanced components.</p>
+              <div class="project-meta"><span>HTML5 / CSS Variables</span></div>
+              <a href="#contact" class="project-link">View Details &rarr;</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image-placeholder gradient-2">
+              <div class="project-mockup-graphic">
+                <div class="mock-chart">
+                  <span style="height: 40%"></span>
+                  <span style="height: 70%"></span>
+                  <span style="height: 55%"></span>
+                  <span style="height: 90%"></span>
+                  <span style="height: 65%"></span>
+                </div>
+              </div>
+              <span class="project-badge">Web Application</span>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Web App</span>
+              <h3>Analytics Dashboard</h3>
+              <p>Clean data visualization layout providing real-time metrics and operational insights.</p>
+              <div class="project-meta"><span>Vanilla JS / SVG</span></div>
+              <a href="#contact" class="project-link">View Details &rarr;</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image-placeholder gradient-3">
+              <div class="project-mockup-graphic">
+                <div class="mock-cards">
+                  <div class="mock-item"></div>
+                  <div class="mock-item"></div>
+                </div>
+              </div>
+              <span class="project-badge">E-Commerce</span>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Storefront</span>
+              <h3>Concept Store</h3>
+              <p>Sleek product showcase with smooth interactions and responsive navigation.</p>
+              <div class="project-meta"><span>CSS Grid / Flexbox</span></div>
+              <a href="#contact" class="project-link">View Details &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Feedback</span>
+          <h2>Trusted by Builders</h2>
+          <p>Hear what engineers and designers say about our websites.</p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="card-quote-mark">&ldquo;</div>
+            <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-quote">"The cleanest HTML template I have ever used. Fast, zero bloat, and the dark mode switch is seamless."</p>
+            <div class="testimonial-author">
+              <div class="avatar-circle">SC</div>
+              <div class="author-details">
+                <h4>Sarah Chen</h4>
+                <p>Lead Engineer @ OrbitIO</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="card-quote-mark">&ldquo;</div>
+            <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-quote">"Remarkable 100/100 Lighthouse performance out of the box. Saved our team days of initial configuration."</p>
+            <div class="testimonial-author">
+              <div class="avatar-circle">MR</div>
+              <div class="author-details">
+                <h4>Marcus Rivera</h4>
+                <p>Product Designer @ NovaStack</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="card-quote-mark">&ldquo;</div>
+            <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="testimonial-quote">"Clear code organization that is easy to extend. No package managers required to get a stunning site up."</p>
+            <div class="testimonial-author">
+              <div class="avatar-circle">AL</div>
+              <div class="author-details">
+                <h4>Aria Lind</h4>
+                <p>Founder @ DevCraft</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section pricing-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Pricing</span>
+          <h2>Simple, Honest Plans</h2>
+          <p>Straightforward options tailored for creators, startups, and growing enterprises.</p>
+        </div>
+        <div class="pricing-grid">
+          <!-- Tier 1 -->
+          <div class="pricing-card">
+            <h3 class="tier-name">Starter</h3>
+            <p class="tier-desc">Ideal for personal landing pages and simple portfolios.</p>
+            <div class="tier-price">
+              <span class="currency">$</span>
+              <span class="amount">29</span>
+              <span class="period">/ one-time</span>
+            </div>
+            <ul class="pricing-features">
+              <li><span class="check-icon">&#10003;</span> Complete HTML5 &amp; CSS source</li>
+              <li><span class="check-icon">&#10003;</span> Light &amp; Dark mode switcher</li>
+              <li><span class="check-icon">&#10003;</span> Fully mobile responsive</li>
+              <li><span class="check-icon">&#10003;</span> Clean documentation</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline tier-btn">Choose Starter</a>
+          </div>
+
+          <!-- Tier 2 (Popular) -->
+          <div class="pricing-card popular">
+            <div class="popular-ribbon">Most Popular</div>
+            <h3 class="tier-name">Professional</h3>
+            <p class="tier-desc">Perfect for startups, businesses, and agency projects.</p>
+            <div class="tier-price">
+              <span class="currency">$</span>
+              <span class="amount">79</span>
+              <span class="period">/ one-time</span>
+            </div>
+            <ul class="pricing-features">
+              <li><span class="check-icon">&#10003;</span> Everything in Starter</li>
+              <li><span class="check-icon">&#10003;</span> All 8 pre-built page sections</li>
+              <li><span class="check-icon">&#10003;</span> Form validation &amp; FAQ accordion</li>
+              <li><span class="check-icon">&#10003;</span> High-performance SVG icons</li>
+              <li><span class="check-icon">&#10003;</span> Priority email support</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary tier-btn">Get Professional</a>
+          </div>
+
+          <!-- Tier 3 -->
+          <div class="pricing-card">
+            <h3 class="tier-name">Enterprise</h3>
+            <p class="tier-desc">For specialized custom development and dedicated support.</p>
+            <div class="tier-price">
+              <span class="currency">$</span>
+              <span class="amount">199</span>
+              <span class="period">/ project</span>
+            </div>
+            <ul class="pricing-features">
+              <li><span class="check-icon">&#10003;</span> Custom visual design adjustments</li>
+              <li><span class="check-icon">&#10003;</span> Custom interactive JS integrations</li>
+              <li><span class="check-icon">&#10003;</span> Full SEO &amp; performance audit</li>
+              <li><span class="check-icon">&#10003;</span> Dedicated developer support</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline tier-btn">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section faq-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+          <p>Find answers to common questions about using and customizing this website.</p>
+        </div>
+        <div class="faq-container">
+          <details class="faq-item" open>
+            <summary class="faq-question">
+              <span>Do I need Node.js or any build tools to run this website?</span>
+              <span class="faq-chevron">&#9662;</span>
+            </summary>
+            <div class="faq-answer">
+              <p>No build tools or servers are required! This site is built with pure standard HTML5, CSS3, and vanilla JavaScript. Simply open <code>index.html</code> in any web browser and it will work instantly.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>How can I customize the color scheme and fonts?</span>
+              <span class="faq-chevron">&#9662;</span>
+            </summary>
+            <div class="faq-answer">
+              <p>All colors, fonts, spacing, and shadows are defined in the <code>:root</code> block of <code>style.css</code>. You can easily adjust <code>--primary</code>, <code>--bg-color</code>, and typography in one central location.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Is this website accessible and responsive across mobile devices?</span>
+              <span class="faq-chevron">&#9662;</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes. The layout is built with fluid CSS Grid and Flexbox with dedicated breakpoints for smartphones, tablets, and desktops. It adheres to accessibility guidelines with proper contrast ratios and semantic tags.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Can I host this on GitHub Pages, Vercel, or Netlify?</span>
+              <span class="faq-chevron">&#9662;</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes, absolutely. Because there are no backend dependencies, it can be deployed to any static host (GitHub Pages, Cloudflare Pages, Netlify, Vercel, or AWS S3) with zero configuration.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Contact</span>
+          <h2>Get In Touch</h2>
+          <p>Have a question or want to work together? Send a message.</p>
+        </div>
+        
+        <div class="contact-grid">
+          <!-- Contact Info Panel -->
+          <div class="contact-info-panel">
+            <h3>Contact Information</h3>
+            <p class="panel-subtitle">Feel free to reach out via our contact channels or submit the form.</p>
+
+            <div class="info-items">
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Email Us</h4>
+                  <a href="mailto:hello@example.com">hello@example.com</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Location</h4>
+                  <p>San Francisco, CA &bull; Global Remote</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Working Hours</h4>
+                  <p>Monday – Friday, 9:00 AM – 6:00 PM PST</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links-box">
+              <h4>Follow Us</h4>
+              <div class="social-icons">
+                <a href="#hero" class="social-btn" aria-label="GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+                <a href="#hero" class="social-btn" aria-label="Twitter">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                  </svg>
+                </a>
+                <a href="#hero" class="social-btn" aria-label="LinkedIn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper">
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="John Doe" required />
+                  <span class="error-msg" id="name-error"></span>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required />
+                  <span class="error-msg" id="email-error"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Project Inquiry / General Question" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                <span class="error-msg" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Send Message</span>
+              </button>
+              <div id="form-feedback" class="form-feedback" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-top-grid">
+        <div class="footer-col brand-col">
+          <a href="#hero" class="logo">
+            <span class="logo-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </span>
+            Simple<span>Web</span>
+          </a>
+          <p class="brand-bio">
+            A fast, lightweight, and modern website built on pure web standards. Crafted for performance, clarity, and ease of use.
+          </p>
+          <div class="footer-badge">
+            <span class="status-indicator"></span> All Systems Operational
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul class="footer-links">
+            <li><a href="#pricing">Pricing Plans</a></li>
+            <li><a href="#faq">Frequently Asked</a></li>
+            <li><a href="#contact">Contact Support</a></li>
+            <li><a href="#hero">Documentation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col newsletter-col">
+          <h4>Stay Updated</h4>
+          <p>Get notified about new components, updates, and design tips.</p>
+          <form id="newsletter-form" class="newsletter-form">
+            <input type="email" id="newsletter-email" placeholder="Enter your email" required />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+          <div id="newsletter-feedback" class="newsletter-feedback"></div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> SimpleWeb. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#hero">Terms of Service</a>
+          <span>&bull;</span>
+          <a href="#hero">Privacy Notice</a>
+          <span>&bull;</span>
+          <a href="#hero">Security</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
